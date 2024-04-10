@@ -131,3 +131,6 @@
   right: 5px;
   top: 124px;
 }
+.recipes__iframe {
+  border: none;
+}
