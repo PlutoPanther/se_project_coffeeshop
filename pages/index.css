@@ -67,7 +67,15 @@ input[type="datetime-local"] {
   margin-bottom: 0;
   letter-spacing: -0.6px;
   font-weight: 500;
+  display: flex;
+  z-index: 2;
 }
+
+.header__image {
+  display: flex;
+  z-index: 0;
+}
+
 .header__description {
   font-family: "Noto Serif";
   font-style: normal;
@@ -77,6 +85,8 @@ input[type="datetime-local"] {
   line-height: 30px;
   margin-top: 28px;
   margin-left: 80px;
+  display: flex;
+  z-index: 2;
 }
 .header__span-accent {
   display: block;
