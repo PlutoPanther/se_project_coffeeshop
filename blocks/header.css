@@ -29,6 +29,10 @@
 .header__image {
   display: flex;
   z-index: 0;
+  margin-right: 5px;
+  margin-top: 44px;
+  width: 646px;
+  height: 568px;
 }
 
 .header__description {
@@ -70,4 +74,10 @@
 .header__paragraphs {
   margin: 0;
   align-self: flex-end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
