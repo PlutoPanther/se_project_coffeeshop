@@ -3,8 +3,9 @@
 }
 .form__label {
   margin-bottom: 32px;
-  display: block;
-  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -13,14 +14,10 @@
 
 .form__label_type_checkbox {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   margin-bottom: 0;
   border-radius: 2px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   accent-color: #2f80ed;
 }
 
@@ -31,13 +28,14 @@
 }
 
 .form__input {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  border: none;
+  border: #838383;
   margin-top: 8px;
   height: 60px;
   border-radius: 4px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -70,7 +68,7 @@
   height: 60px;
   background-color: #2f80ed;
   color: #ffffff;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

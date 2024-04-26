@@ -15,11 +15,8 @@
       content="Triple Peaks Library, Specialty Coffee, Coffee Shop,
  Coffee Recipes, Specialty Coffee Recipes, Book a Table, Reserve Table"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="images/background_header.svg" />
-    <link rel="icon" type="image/x-icon" href="images/background_recipes.svg" />
     <title>Triple Peaks Coffee Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -121,7 +118,6 @@
                 >Name *
                 <input
                   type="text"
-                  class="form__input_name form__input"
                   id="form__input_name"
                   placeholder="Name Surname"
                 />
@@ -132,7 +128,6 @@
                   type="number"
                   min="1"
                   max="8"
-                  class="form__input_guests form__input"
                   id="form__input_guests"
                   placeholder="1-8"
                 />
@@ -140,23 +135,18 @@
               <label for="form__input_date" class="form__label"
                 >Date & time *
 
-                <input
-                  type="datetime-local"
-                  class="form__input_date form__input"
-                  id="form__input_date"
-                />
+                <input type="datetime-local" id="form__input_date" />
               </label>
               <label for="form__input_email" class="form__label"
                 >Your Email *
                 <input
                   type="email"
-                  class="form__input_email form__input"
                   id="form__input_email"
                   placeholder="email@email.com"
                 />
               </label>
             </fieldset>
-            <button class="form__button">Book a table</button>
+            <button class="form__button" type="submit">Book a table</button>
             <label
               for="form__checkbox"
               class="form__label form__label_type_checkbox"
@@ -282,7 +272,7 @@
       <footer class="footer" id="contacts-link">
         <div class="footer__content">
           <img
-            src="../images/logo_coffeeshop_light.svg"
+            src="images/logo_coffeeshop_light.svg"
             alt="coffee shop logo"
             class="footer__logo"
           />
@@ -292,7 +282,7 @@
               <li class="footer__list-item">
                 <a href="#" class="footer__column-link"
                   ><img
-                    src="../images/facebook_white.svg"
+                    src="images/facebook_white.svg"
                     alt="Facebook logo"
                     class="footer__social-icon"
                   />Facebook</a
@@ -302,7 +292,7 @@
                 <a href="#" class="footer__column-link"
                   ><img
                     href="#"
-                    src="../images/instagram_white.svg"
+                    src="images/instagram_white.svg"
                     alt="Instagram logo"
                     class="footer__social-icon"
                   />Instagram</a
