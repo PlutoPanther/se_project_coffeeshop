@@ -4,7 +4,7 @@
 
 .card__list {
   padding: 0;
-  margin: 0 0 100px;
+  margin: 0;
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
 
 .card__list-item {
   display: flex;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

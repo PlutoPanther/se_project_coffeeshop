@@ -13,7 +13,6 @@
 }
 
 .form__label_type_checkbox {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 0;
@@ -32,6 +31,9 @@
   flex-direction: column;
   width: 100%;
   border: #838383;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
   border-radius: 4px;
@@ -41,22 +43,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
-  padding: 0;
-}
-
-.form__input_name {
-  text-indent: 18px;
-}
-
-.form__input_guests {
-  text-indent: 18px;
-}
-
-.form__input_email {
-  text-indent: 18px;
-}
-.form__input_date {
-  text-indent: 9px;
+  padding: 10px;
 }
 
 .form__button {

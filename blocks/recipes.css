@@ -35,9 +35,9 @@
   display: flex;
   color: #ffffff;
   margin: 24px 0 215px;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 80px;
   font-size: 20px;
   line-height: 30px;
 }
